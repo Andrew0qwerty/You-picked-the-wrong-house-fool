@@ -1,0 +1,104 @@
+body {
+  background-image: url(ooo/sand.jpg);
+  background-size: cover;
+  font: normal 16px "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.qwerty {
+  width: 500px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.33);
+}
+
+.container {
+  margin: 0 25px;
+  padding: 0;
+}
+
+.card {
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-top: 0;
+  border-radius: 2em;
+}
+
+.bg-grey {
+  background: grey;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+.qwertyF {
+  width: 800px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.33);
+}
+
+.link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.center h1 {
+  text-align: center;
+}
+
+.ultimate li {
+  margin-left: 25px;
+  margin-top: -25px;
+  display: flex;
+  padding: 5px;
+  justify-content: right;
+  align-items: center;
+  float: right;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+}
+
+.ultimate li:hover {
+  background: #a9a9a9;
+}
+
+.navbar-brand {
+  margin-top: -15px;
+  padding: 0px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  float: left;
+  transition: all 0.5s ease-in-out;
+}
+
+.title {
+  text-align: center;
+}
+
+.title1 {
+  text-align: right;
+}
