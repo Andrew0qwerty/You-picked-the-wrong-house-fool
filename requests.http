@@ -2,21 +2,6 @@ GET http://localhost:3000/?a=42&b=10
 Content-Type: application/json
 ###
 
-GET http://localhost:3000/text
-Content-Type: application/json
-###
-
-Post http://localhost:3000/text
-Content-Type: application/json 
-
-{
-
-"text": "lorem is a dummy text. We know everything in..."
-
-}
-
-###
-
 Post http://localhost:3000/getSum
 Content-Type: application/json 
 
@@ -29,3 +14,4 @@ Content-Type: application/json
 
 ###
 
+# 2 usuless request deleted
