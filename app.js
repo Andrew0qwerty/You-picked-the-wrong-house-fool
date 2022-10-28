@@ -11,21 +11,14 @@ const path = require("path");
 const { text } = require("./jojo");
 
 const { num } = require("./jojo");
+const { connected } = require("process");
 
 const app = express();
 
 app.use(express.json());
 
-app.get("/text", (req, res) => {
-  res.send(jojo.text());
-});
-
 app.get("/", (req, res) => {
   res.send(String(Number(req.query.a) + Number(req.query.b)));
-});
-
-app.post("/text", (req, res) => {
-  res.send(req.body.text);
 });
 
 app.post("/getSum", (req, res) => {
@@ -33,3 +26,5 @@ app.post("/getSum", (req, res) => {
 });
 
 app.listen(3000, () => console.log("Starting..."));
+
+// deleted useless code
